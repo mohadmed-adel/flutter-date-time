@@ -4,7 +4,7 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:custom_datetime_picker/flutter_datetime_picker.dart';
+import 'package:custom_datetime_picker/custom_datetime_picker.dart';
 import 'package:custom_datetime_picker/src/datetime_picker_theme.dart'
     as datePicker;
 

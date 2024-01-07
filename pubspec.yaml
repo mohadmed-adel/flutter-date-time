@@ -1,4 +1,4 @@
-name: custom_datetime_picker
+name: customx_datetime_picker
 description: A date time picker for flutter, you can choose date / time / date&time in English Dutch and Chinese, and you can also custom your own picker content
 version: 0.0.1
 homepage: https://github.com/mohamed-adel-essa/flutter-date-time.git

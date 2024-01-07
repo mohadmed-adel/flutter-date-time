@@ -1,16 +1,16 @@
-library custom_datetime_picker;
+library customx_datetime_picker;
 
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:custom_datetime_picker/custom_datetime_picker.dart';
-import 'package:custom_datetime_picker/src/datetime_picker_theme.dart'
+import 'package:customx_datetime_picker/custom_datetime_picker.dart';
+import 'package:customx_datetime_picker/src/datetime_picker_theme.dart'
     as datePicker;
 
-export 'package:custom_datetime_picker/src/date_model.dart';
-export 'package:custom_datetime_picker/src/datetime_picker_theme.dart';
-export 'package:custom_datetime_picker/src/i18n_model.dart';
+export 'package:customx_datetime_picker/src/date_model.dart';
+export 'package:customx_datetime_picker/src/datetime_picker_theme.dart';
+export 'package:customx_datetime_picker/src/i18n_model.dart';
 
 typedef DateChangedCallback = Function(DateTime time);
 typedef DateCancelledCallback = Function();

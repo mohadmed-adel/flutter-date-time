@@ -1,5 +1,5 @@
-import 'package:custom_datetime_picker/src/date_format.dart';
-import 'package:custom_datetime_picker/src/i18n_model.dart';
+import 'package:customx_datetime_picker/src/date_format.dart';
+import 'package:customx_datetime_picker/src/i18n_model.dart';
 import 'datetime_util.dart';
 import 'dart:math';
 
@@ -57,8 +57,7 @@ class CommonPickerModel extends BasePickerModel {
 
   late LocaleType locale;
 
-  CommonPickerModel({LocaleType? locale})
-      : locale = locale ?? LocaleType.en;
+  CommonPickerModel({LocaleType? locale}) : locale = locale ?? LocaleType.en;
 
   @override
   String? leftStringAtIndex(int index) {
@@ -377,7 +376,9 @@ class TimePickerModel extends CommonPickerModel {
   bool showSecondsColumn;
 
   TimePickerModel(
-      {DateTime? currentTime, LocaleType? locale, this.showSecondsColumn = true})
+      {DateTime? currentTime,
+      LocaleType? locale,
+      this.showSecondsColumn = true})
       : super(locale: locale) {
     this.currentTime = currentTime ?? DateTime.now();
 
